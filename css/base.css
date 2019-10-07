@@ -1,0 +1,98 @@
+html{
+  width: 100%;
+  /*height: 100%;*/
+  background: #eee;
+}
+body{
+  width: 100%;
+  /*height: 100%;*/
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+.wordPoint{
+  font-weight: 600;
+}
+.capsule{
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  color: #000;
+  text-align: center;
+  background: #eee;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.jobTypeCapsule{
+  line-height: 18px;
+  color: #2D3E50;
+  font-size: 14px;
+  padding: 0 5px;
+  border: 1px solid #2D3E50;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+.jobTypeCapsule:hover{
+  background: #2D3E50;
+  color: #fff;
+}
+.skillCapsule{
+  width: auto;
+  height: 24px;
+  background: #f6f6f6;;
+  border: 1px solid #e6e6e6;;
+  border-radius: 3px;
+  padding: 0px 5px;
+  margin: 0px 5px !important;
+  display: inline-block;
+}
+/*简历内容块*/
+.resumeBlock{
+  margin-top: 20px;
+}
+.resumeBlockTitle{
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.resumeBlockTitle .line{
+  width: 158px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  vertical-align: middle;
+}
+.resumeBlockContent{
+  font-size: 14px;
+  margin-top: 20px;
+}
+.resumeBlockContent .experience{
+  display: flex;
+  justify-content: space-between;
+}
+.resumeBlockContent .experience>li{
+  display: inline-block;
+  line-height: 18px;
+  float: left;
+}
+.resumeBlockContent .resumeContent {
+  margin-top: 12px;
+}
+.resumeBlockContent .resumeContent>li{
+  line-height: 26px;
+}
+.resumeBlockContent .resumeContent>li>span{
+  margin-right: 10px;
+}
+.noFlex{
+  display: inline-block !important;
+}
+.noFlex>li:nth-child(1){
+  margin-right: 22px;
+}
